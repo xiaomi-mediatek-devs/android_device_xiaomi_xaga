@@ -32,7 +32,8 @@ TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Security Patch Level
-VENDOR_SECURITY_PATCH := 2024-11-01
+BOOT_SECURITY_PATCH := 2024-11-01
+VENDOR_SECURITY_PATCH := $(BOOT_SECURITY_PATCH)
 
 # Inherit the proprietary files
 include vendor/xiaomi/xaga/BoardConfigVendor.mk

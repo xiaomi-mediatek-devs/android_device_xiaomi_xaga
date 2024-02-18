@@ -1,9 +1,6 @@
-mkp.ko
-bootprof.ko
 dbgtop-drm.ko
 mtk_sync.ko
 mtk_disp_notify.ko
-log_store.ko
 nvmem_mtk-devinfo.ko
 mtk_wdt.ko
 sec-rng.ko
@@ -68,7 +65,6 @@ mmprofile.ko
 mtk-uart-apdma.ko
 8250_mtk.ko
 phy-mtk-xsphy.ko
-usb_boost.ko
 mtu3.ko
 xhci-mtk-hcd.ko
 mux_switch.ko
@@ -91,8 +87,6 @@ ufs-mediatek-mod.ko
 ufs-mediatek-dbg.ko
 clk-chk-mt6895.ko
 clk-dbg-mt6895.ko
-blocktag.ko
-pidmap.ko
 mtk-pmic-keys.ko
 mtk-kpd.ko
 regulator-vibrator.ko

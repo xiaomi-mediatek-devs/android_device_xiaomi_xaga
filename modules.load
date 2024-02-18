@@ -19,12 +19,6 @@ ccci_dpmaif.ko
 ccmni.ko
 mtk_u_ether.ko
 mtk_usb_f_rndis.ko
-c2k_usb.ko
-c2k_usb_f_via_atc.ko
-c2k_usb_f_via_ets.ko
-c2k_usb_f_via_gps.ko
-c2k_usb_f_via_modem.ko
-c2k_usb_f_via_pcv.ko
 asix.ko
 ax88179_178a.ko
 rps_perf.ko
@@ -81,7 +75,6 @@ mddp.ko
 mtk_cm_ipi.ko
 mtk_cm_mgr.ko
 mtk_cm_mgr_mt6895.ko
-atf_logger.ko
 apu_top.ko
 apusys.ko
 vcp.ko
@@ -98,7 +91,6 @@ gz_ipc_mod.ko
 gz_tz_system.ko
 trusted_mem.ko
 mtk_sec_heap.ko
-mtk_heap_debug.ko
 mtk-cqdma.ko
 mcupm.ko
 mtk_ccu.ko

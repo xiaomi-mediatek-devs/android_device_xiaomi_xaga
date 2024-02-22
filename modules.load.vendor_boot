@@ -60,6 +60,7 @@ mtk_panel_ext.ko
 mediatek-drm-gateic.ko
 mediatek-drm-panel-drv.ko
 mediatek-drm.ko
+ledtrig-backlight-drm.ko
 mmprofile.ko
 mtk-uart-apdma.ko
 8250_mtk.ko

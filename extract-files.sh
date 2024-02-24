@@ -16,6 +16,7 @@ set -e
 
 export DEVICE=xaga
 export DEVICE_COMMON=mt6895-common
+export TARGET_TEE=beanpod
 export VENDOR=xiaomi
 export VENDOR_COMMON=${VENDOR}
 

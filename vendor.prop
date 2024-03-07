@@ -1,3 +1,7 @@
+# Audio
+ro.vendor.audio.us.proximity=true
+ro.vendor.audio.us.proximity_waitfornegative_feature=true
+
 # Camera
 camera.disable_zsl_mode=1
 persist.vendor.camera3.pipeline.bufnum.min.high_ram.imgo=7

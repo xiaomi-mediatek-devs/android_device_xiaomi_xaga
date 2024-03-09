@@ -22,6 +22,8 @@ vendor/etc/audio_param/VoWVoiceCommand_AudioParam.xml
 vendor/etc/audio_param/tfa98xx_music.bin
 vendor/etc/audio_param/tfa98xx_ringtone.bin
 vendor/etc/audio_param/tfa98xx_voice.bin
+vendor/etc/aurisys_config.xml
+vendor/etc/aurisys_config_hifi3.xml
 
 # Audio Hardware
 vendor/lib64/hw/audio.primary.mediatek.so:vendor/lib64/hw/audio.primary.mt6895.so

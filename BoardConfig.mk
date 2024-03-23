@@ -22,7 +22,7 @@ TARGET_SCREEN_DENSITY := 420
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Security Patch Level
-VENDOR_SECURITY_PATCH := 2023-12-01
+VENDOR_SECURITY_PATCH := 2024-02-01
 
 # Inherit the proprietary files
 include vendor/xiaomi/xaga/BoardConfigVendor.mk

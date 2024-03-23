@@ -24,9 +24,9 @@ PRODUCT_SYSTEM_NAME := xaga_global
 PRODUCT_SYSTEM_DEVICE := xaga
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="xaga_global-user 12 SP1A.210812.016 V14.0.7.0.TLOMIXM release-keys" \
+    PRIVATE_BUILD_DESC="xaga_global-user 12 SP1A.210812.016 V14.0.8.0.TLOMIXM release-keys" \
     TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := POCO/xaga_global/xaga:12/SP1A.210812.016/V14.0.7.0.TLOMIXM:user/release-keys
+BUILD_FINGERPRINT := POCO/xaga_global/xaga:12/SP1A.210812.016/V14.0.8.0.TLOMIXM:user/release-keys

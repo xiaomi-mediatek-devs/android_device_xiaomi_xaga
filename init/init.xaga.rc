@@ -34,21 +34,3 @@ on boot && property:ro.boot.product.hardware.sku=xagapro
     enable mtk_secure_element_hal_service
     enable vendor.secure_element
     enable vendor.nfc_hal_service
-
-on boot && property:ro.boot.product.hardware.sku=xaga && property:ro.boot.hwc=GL
-    setprop bluetooth.device.default_name "POCO X4 GT"
-
-on boot && property:ro.boot.product.hardware.sku=xaga && property:ro.boot.hwc=CN
-    setprop bluetooth.device.default_name "Redmi Note 11T Pro"
-
-on boot && property:ro.boot.product.hardware.sku=xagain
-    setprop bluetooth.device.default_name "Redmi K50i"
-
-on boot && property:ro.boot.product.hardware.sku=xagapro && property:ro.boot.hwc=GL
-    setprop bluetooth.device.default_name "POCO X4 GT Pro"
-
-on boot && property:ro.boot.product.hardware.sku=xagapro && property:ro.boot.hwc=CN
-    setprop bluetooth.device.default_name "Redmi Note 11T Pro+"
-
-on boot && property:ro.boot.product.hardware.sku=xagaproin
-    setprop bluetooth.device.default_name "Redmi K50i Pro"

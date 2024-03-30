@@ -36,13 +36,12 @@ vendor/etc/smartpa_param/tfa98xx_device.bin
 vendor/etc/smartpa_param/tfa98xx_ringtone.bin
 vendor/etc/smartpa_param/tfa98xx_voice.bin
 
-# Audio Hardware
-vendor/lib64/hw/audio.primary.mediatek.so:vendor/lib64/hw/audio.primary.mt6895.so
-vendor/lib64/libaudio_param_parser-vnd.so
-vendor/lib64/libmiresample.so
-vendor/lib64/libmisound.so
-vendor/lib64/libmisoundcrossfade.so
-vendor/lib64/vendor.mediatek.hardware.audio@7.1.so
+# Audio Hardware - from rubens-user 12 SP1A.210812.016 V816.0.6.0.ULNCNXM release-keys
+vendor/lib64/hw/audio.primary.mediatek.so:vendor/lib64/hw/audio.primary.mt6895.so|0b1bbdbb1f31edd5b31cba28ecd415ded9fef848|8b041b36299f6cf21485f6a4ca346488461a9286
+vendor/lib64/libaudio_param_parser-vnd.so|cd7f4ee840aaf43cb383169a66474755f3f11775
+vendor/lib64/libmiresample.so|37b1e6ec1d0cc0c15637159799fd7361daf17014
+vendor/lib64/libmisound.so|403d7b277f6b66f1712a4a54503ae0f47c5244d1
+vendor/lib64/libmisoundcrossfade.so|6d5f7ca4e65a7bb0663ea66db7c7eaa48494a1df
 
 # Audio Firmware
 vendor/firmware/tfa98xx.cnt

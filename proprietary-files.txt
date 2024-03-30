@@ -32,6 +32,9 @@ vendor/etc/aurisys_config_hifi3.xml
 vendor/etc/misound_res.bin
 vendor/etc/misound_res_headphone.bin
 vendor/etc/misound_res_spk.bin
+vendor/etc/smartpa_param/tfa98xx_device.bin
+vendor/etc/smartpa_param/tfa98xx_ringtone.bin
+vendor/etc/smartpa_param/tfa98xx_voice.bin
 
 # Audio Hardware
 vendor/lib64/hw/audio.primary.mediatek.so:vendor/lib64/hw/audio.primary.mt6895.so

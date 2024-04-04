@@ -12,6 +12,7 @@ PRODUCT_PACKAGES += \
     FrameworksResXaga \
     FrameworksResXagaPro \
     FrameworksResXagaProIn \
+    NfcOverlayXaga \
     SettingsProviderOverlayXagaCn \
     SettingsProviderOverlayXaga \
     SettingsProviderOverlayXagaIn \

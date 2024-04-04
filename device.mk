@@ -52,6 +52,7 @@ $(foreach sku, xaga xagapro, \
 
 # Rootdir
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/init/init.xaga_product.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/init.xaga_product.rc \
     $(LOCAL_PATH)/init/init.xaga.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.xaga.rc
 
 # Sensors

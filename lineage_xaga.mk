@@ -14,19 +14,19 @@ $(call inherit-product, device/xiaomi/xaga/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_BRAND := POCO
+PRODUCT_BRAND := Redmi
 PRODUCT_DEVICE := xaga
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_MODEL := 22041216G
+PRODUCT_MODEL := 22041216C
 PRODUCT_NAME := lineage_xaga
 
-PRODUCT_SYSTEM_NAME := xaga_global
+PRODUCT_SYSTEM_NAME := xaga
 PRODUCT_SYSTEM_DEVICE := xaga
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="xaga_global-user 12 SP1A.210812.016 V14.0.8.0.TLOMIXM release-keys" \
+    PRIVATE_BUILD_DESC="xaga-user 14 SP1A.210812.016 V816.0.1.0.ULOCNXM release-keys" \
     TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := POCO/xaga_global/xaga:12/SP1A.210812.016/V14.0.8.0.TLOMIXM:user/release-keys
+BUILD_FINGERPRINT := Redmi/xaga/xaga:12/SP1A.210812.016/V816.0.1.0.ULOCNXM:user/release-keys

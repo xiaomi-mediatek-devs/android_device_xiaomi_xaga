@@ -599,6 +599,7 @@ vendor/lib64/libgf_hal.so
 vendor/lib64/libgoodixhwfingerprint.so
 
 # Fingerprint (tee)
+vendor/thh/ta/655a4b46cd7711eaaafbf382a6988e7b.ta
 vendor/thh/ta/7778c03fc30c4dd0a319ea29643d4d4b.ta
 
 # NFC Configs

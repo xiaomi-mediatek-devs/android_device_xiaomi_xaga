@@ -602,6 +602,14 @@ vendor/lib64/libgoodixhwfingerprint.so
 vendor/thh/ta/655a4b46cd7711eaaafbf382a6988e7b.ta
 vendor/thh/ta/7778c03fc30c4dd0a319ea29643d4d4b.ta
 
+# FM Radio
+-system_ext/lib64/libfmjni.so:system/lib64/libfmjni.so
+vendor/etc/init/init.fmradio_drv.rc
+
+# FM Radio (firmware)
+vendor/firmware/mt6635_fm_v1_coeff.bin
+vendor/firmware/mt6635_fm_v1_patch.bin
+
 # NFC Configs
 vendor/etc/libnfc-nci.conf
 vendor/etc/libnfc-nxp.conf

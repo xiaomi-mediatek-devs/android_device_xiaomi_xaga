@@ -31,6 +31,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# FM Radio
+PRODUCT_PACKAGES += \
+    FMRadio
+
 # NFC
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \

@@ -28,3 +28,6 @@ ro.vendor.mtk_camera_app_version=3
 vendor.camera.mdp.cz.enable=1
 vendor.camera.mdp.dre.enable=1
 vendor.mtk.camera.app.fd.video=1
+
+# FM Radio
+ro.vendor.fm.platform=connac2x

@@ -24,9 +24,9 @@ PRODUCT_SYSTEM_NAME := xaga
 PRODUCT_SYSTEM_DEVICE := xaga
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="xaga-user 14 SP1A.210812.016 V816.0.1.0.ULOCNXM release-keys" \
+    PRIVATE_BUILD_DESC="xaga-user 14 SP1A.210812.016 V816.0.2.0.ULOCNXM release-keys" \
     TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := Redmi/xaga/xaga:12/SP1A.210812.016/V816.0.1.0.ULOCNXM:user/release-keys
+BUILD_FINGERPRINT := Redmi/xaga/xaga:12/SP1A.210812.016/V816.0.2.0.ULOCNXM:user/release-keys

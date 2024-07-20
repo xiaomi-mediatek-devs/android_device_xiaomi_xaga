@@ -54,11 +54,14 @@ vendor/lib64/hw/mt6895/vendor.mediatek.hardware.camera.atms@1.0-impl.so:vendor/l
 vendor/lib64/hw/mt6895/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so:vendor/lib64/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.isphal@1.1-impl.so
 vendor/lib64/lib3a.ae.pipe.so
+vendor/lib64/lib3a.cculog.so
+vendor/lib64/libAITrackingAFMgr.so
 vendor/lib64/libArcNetMtk.so
 vendor/lib64/libBasicModule.so
 vendor/lib64/libJpgEncPipe.so
 vendor/lib64/libOpenCL.so
 vendor/lib64/libSQLiteModule_VER_ALL.so
+vendor/lib64/libaaa_gma.so
 vendor/lib64/libai_pq.so
 vendor/lib64/libai_sdr2hdr.so
 vendor/lib64/libai_sdr2hdr_auth.so
@@ -83,6 +86,7 @@ vendor/lib64/libarcsoft_super_night_raw.so
 vendor/lib64/libarcsoft_supernight.so
 vendor/lib64/libbeauty_face_interface.so
 vendor/lib64/libc++_shared.so
+vendor/lib64/libcam.hal3a.guard.so
 vendor/lib64/libcamalgo.WarpMapResizer.so
 vendor/lib64/libcamalgo.dngop.so
 vendor/lib64/libcamalgo.eis.so
@@ -100,7 +104,9 @@ vendor/lib64/libcamalgo.warp.so
 vendor/lib64/libcamera_scene.so
 vendor/lib64/libcameraplatforminfoxiaomi.so
 vendor/lib64/libcamerasensorinfoxiaomi.so
+vendor/lib64/libfeature.hdr10.so
 vendor/lib64/libfeaturepolicy.so
+vendor/lib64/libfeaturepolicy_dbhandler.so
 vendor/lib64/libgz_uree.so
 vendor/lib64/libheichal.so
 vendor/lib64/libimagebuffer_wrapper.so
@@ -122,6 +128,7 @@ vendor/lib64/libminiui.so
 vendor/lib64/libmipc.so
 vendor/lib64/libmpbase.so
 vendor/lib64/libmtkcam_3rdcalibration.so
+vendor/lib64/libmtkcam_thirdparty.customzone.so
 vendor/lib64/libmtkcam_thirdparty.customzone.so
 vendor/lib64/libmtkisp_metadata_v2.so
 vendor/lib64/libvideofilter_only.so
@@ -146,7 +153,6 @@ vendor/lib64/mt6895/lib3a.aishutter.so:vendor/lib64/lib3a.aishutter.so
 vendor/lib64/mt6895/lib3a.alsflicker.so:vendor/lib64/lib3a.alsflicker.so
 vendor/lib64/mt6895/lib3a.awb.core.so:vendor/lib64/lib3a.awb.core.so
 vendor/lib64/mt6895/lib3a.awbsync.so:vendor/lib64/lib3a.awbsync.so
-vendor/lib64/mt6895/lib3a.cculog.so:vendor/lib64/lib3a.cculog.so
 vendor/lib64/mt6895/lib3a.custom.ae.so:vendor/lib64/lib3a.custom.ae.so
 vendor/lib64/mt6895/lib3a.flash.so:vendor/lib64/lib3a.flash.so
 vendor/lib64/mt6895/lib3a.flicker.so:vendor/lib64/lib3a.flicker.so
@@ -156,14 +162,12 @@ vendor/lib64/mt6895/lib3a.sensors.flicker.so:vendor/lib64/lib3a.sensors.flicker.
 vendor/lib64/mt6895/lib3a.stat.so:vendor/lib64/lib3a.stat.so
 vendor/lib64/mt6895/libAIODcore.so:vendor/lib64/libAIODcore.so
 vendor/lib64/mt6895/libAIOTcore.so:vendor/lib64/libAIOTcore.so
-vendor/lib64/mt6895/libAITrackingAFMgr.so:vendor/lib64/libAITrackingAFMgr.so
 vendor/lib64/mt6895/libDBAccessor_ISP.so:vendor/lib64/libDBAccessor_ISP.so
 vendor/lib64/mt6895/libMtkMediaController.so:vendor/lib64/libMtkMediaController.so
 vendor/lib64/mt6895/libSonyIMX519PdafWrapper.so:vendor/lib64/libSonyIMX519PdafWrapper.so
 vendor/lib64/mt6895/lib_bsscore.so:vendor/lib64/lib_bsscore.so
 vendor/lib64/mt6895/libaaa_afassist.so:vendor/lib64/libaaa_afassist.so
 vendor/lib64/mt6895/libaaa_feature.so:vendor/lib64/libaaa_feature.so
-vendor/lib64/mt6895/libaaa_gma.so:vendor/lib64/libaaa_gma.so
 vendor/lib64/mt6895/libaaa_ltm.so:vendor/lib64/libaaa_ltm.so
 vendor/lib64/mt6895/libaaa_ltmx.so:vendor/lib64/libaaa_ltmx.so
 vendor/lib64/mt6895/libaaa_tnc.so:vendor/lib64/libaaa_tnc.so
@@ -190,7 +194,6 @@ vendor/lib64/mt6895/libcam.fw_me_tcy.so:vendor/lib64/libcam.fw_me_tcy.so
 vendor/lib64/mt6895/libcam.hal3a.afassitmgr.so:vendor/lib64/libcam.hal3a.afassitmgr.so
 vendor/lib64/mt6895/libcam.hal3a.cctsvr.v4l2.so:vendor/lib64/libcam.hal3a.cctsvr.v4l2.so
 vendor/lib64/mt6895/libcam.hal3a.ctrl.so:vendor/lib64/libcam.hal3a.ctrl.so
-vendor/lib64/mt6895/libcam.hal3a.guard.so:vendor/lib64/libcam.hal3a.guard.so
 vendor/lib64/mt6895/libcam.hal3a.ircutdrv.so:vendor/lib64/libcam.hal3a.ircutdrv.so
 vendor/lib64/mt6895/libcam.hal3a.lensdrv.so:vendor/lib64/libcam.hal3a.lensdrv.so
 vendor/lib64/mt6895/libcam.hal3a.log.so:vendor/lib64/libcam.hal3a.log.so
@@ -275,7 +278,6 @@ vendor/lib64/mt6895/libccd.so:vendor/lib64/libccd.so
 vendor/lib64/mt6895/libeffecthal.base.so:vendor/lib64/libeffecthal.base.so
 vendor/lib64/mt6895/libfeature.face.so:vendor/lib64/libfeature.face.so
 vendor/lib64/mt6895/libfeature.fwmvp.so:vendor/lib64/libfeature.fwmvp.so
-vendor/lib64/mt6895/libfeature.hdr10.so:vendor/lib64/libfeature.hdr10.so
 vendor/lib64/mt6895/libfeature.mcnr.so:vendor/lib64/libfeature.mcnr.so
 vendor/lib64/mt6895/libfeature.stereo.provider.so:vendor/lib64/libfeature.stereo.provider.so
 vendor/lib64/mt6895/libfeature.vainr.hal.so:vendor/lib64/libfeature.vainr.hal.so
@@ -286,7 +288,6 @@ vendor/lib64/mt6895/libfeature_fsc.so:vendor/lib64/libfeature_fsc.so
 vendor/lib64/mt6895/libfeature_rss.so:vendor/lib64/libfeature_rss.so
 vendor/lib64/mt6895/libfeature_vrp.so:vendor/lib64/libfeature_vrp.so
 vendor/lib64/mt6895/libfeatureiodrv_mem.so:vendor/lib64/libfeatureiodrv_mem.so
-vendor/lib64/mt6895/libfeaturepolicy_dbhandler.so:vendor/lib64/libfeaturepolicy_dbhandler.so
 vendor/lib64/mt6895/libimgsys_adl.so:vendor/lib64/libimgsys_adl.so
 vendor/lib64/mt6895/libimgsys_cmt.so:vendor/lib64/libimgsys_cmt.so
 vendor/lib64/mt6895/libimgsys_daemon.so:vendor/lib64/libimgsys_daemon.so
@@ -398,7 +399,6 @@ vendor/lib64/mt6895/libmtkcam_synchelper.so:vendor/lib64/libmtkcam_synchelper.so
 vendor/lib64/mt6895/libmtkcam_sysutils.so:vendor/lib64/libmtkcam_sysutils.so
 vendor/lib64/mt6895/libmtkcam_thirdparty.core.so:vendor/lib64/libmtkcam_thirdparty.core.so
 vendor/lib64/mt6895/libmtkcam_thirdparty.customer.so:vendor/lib64/libmtkcam_thirdparty.customer.so
-vendor/lib64/mt6895/libmtkcam_thirdparty.customzone.so:vendor/lib64/libmtkcam_thirdparty.customzone.so
 vendor/lib64/mt6895/libmtkcam_thirdparty.mtk.so:vendor/lib64/libmtkcam_thirdparty.mtk.so
 vendor/lib64/mt6895/libmtkcam_thirdparty.so:vendor/lib64/libmtkcam_thirdparty.so
 vendor/lib64/mt6895/libmtkcam_tuning_utils.so:vendor/lib64/libmtkcam_tuning_utils.so

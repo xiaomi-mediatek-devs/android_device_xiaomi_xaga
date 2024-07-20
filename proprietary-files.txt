@@ -595,10 +595,6 @@ vendor/lib64/libgf_ca.so
 vendor/lib64/libgf_hal.so
 vendor/lib64/libgoodixhwfingerprint.so
 
-# Fingerprint (tee)
-vendor/thh/ta/655a4b46cd7711eaaafbf382a6988e7b.ta
-vendor/thh/ta/7778c03fc30c4dd0a319ea29643d4d4b.ta
-
 # FM Radio
 -system_ext/lib64/libfmjni.so:system/lib64/libfmjni.so
 vendor/etc/init/init.fmradio_drv.rc
@@ -712,6 +708,10 @@ vendor/etc/thermal/thermal_policy_02.conf
 vendor/etc/thermal/thermal_policy_03.conf
 vendor/etc/thermal/thermal_policy_08.conf
 vendor/etc/thermald-devices.conf
+
+# Trustlets
+vendor/thh/ta/655a4b46cd7711eaaafbf382a6988e7b.ta
+vendor/thh/ta/7778c03fc30c4dd0a319ea29643d4d4b.ta
 
 # Touchscreen Firmware (novatek)
 vendor/firmware/novatek_nt36672e_l16_fw01.bin

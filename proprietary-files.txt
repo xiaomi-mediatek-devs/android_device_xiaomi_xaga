@@ -104,6 +104,7 @@ vendor/lib64/libcamalgo.warp.so
 vendor/lib64/libcamera_scene.so
 vendor/lib64/libcameraplatforminfoxiaomi.so
 vendor/lib64/libcamerasensorinfoxiaomi.so
+vendor/lib64/libcom.xiaomi.pluginutils.so
 vendor/lib64/libfeature.hdr10.so
 vendor/lib64/libfeaturepolicy.so
 vendor/lib64/libfeaturepolicy_dbhandler.so

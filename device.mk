@@ -7,30 +7,6 @@
 # Inherit from mt6895-common
 $(call inherit-product, device/xiaomi/mt6895-common/mt6895.mk)
 
-# Overlay
-PRODUCT_PACKAGES += \
-    FrameworksResXaga \
-    FrameworksResXagaPro \
-    FrameworksResXagaProIn \
-    NfcOverlayXaga \
-    SettingsProviderOverlayXagaCn \
-    SettingsProviderOverlayXaga \
-    SettingsProviderOverlayXagaIn \
-    SettingsProviderOverlayXagaProCn \
-    SettingsProviderOverlayXagaPro \
-    SettingsProviderOverlayXagaProIn \
-    SystemUIResXaga \
-    WifiOverlayXaga \
-    WifiOverlayXagaCn \
-    WifiOverlayXagaIn \
-    WifiOverlayXagaPro \
-    WifiOverlayXagaProCn \
-    WifiOverlayXagaProIn
-
-# Soong namespaces
-PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
-
 # FM Radio
 PRODUCT_PACKAGES += \
     FMRadio
@@ -55,6 +31,26 @@ $(foreach sku, xaga xagapro, \
         frameworks/native/data/etc/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_$(sku)/com.android.nfc_extras.xml \
         frameworks/native/data/etc/com.nxp.mifare.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_$(sku)/com.nxp.mifare.xml))
 
+# Overlay
+PRODUCT_PACKAGES += \
+    FrameworksResXaga \
+    FrameworksResXagaPro \
+    FrameworksResXagaProIn \
+    NfcOverlayXaga \
+    SettingsProviderOverlayXagaCn \
+    SettingsProviderOverlayXaga \
+    SettingsProviderOverlayXagaIn \
+    SettingsProviderOverlayXagaProCn \
+    SettingsProviderOverlayXagaPro \
+    SettingsProviderOverlayXagaProIn \
+    SystemUIResXaga \
+    WifiOverlayXaga \
+    WifiOverlayXagaCn \
+    WifiOverlayXagaIn \
+    WifiOverlayXagaPro \
+    WifiOverlayXagaProCn \
+    WifiOverlayXagaProIn
+
 # Rootdir
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/init.xaga_product.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/init.xaga_product.rc \
@@ -64,12 +60,16 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 
+# Shipping API Level
+PRODUCT_SHIPPING_API_LEVEL := 31
+
 # Sku properties
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/sku/,$(TARGET_COPY_OUT_ODM)/etc)
 
-# Shipping API Level
-PRODUCT_SHIPPING_API_LEVEL := 31
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/xaga/xaga-vendor.mk)

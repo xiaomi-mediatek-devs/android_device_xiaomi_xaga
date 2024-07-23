@@ -52,9 +52,9 @@ PRODUCT_PACKAGES += \
     WifiOverlayXagaProIn
 
 # Rootdir
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/init/init.xaga_product.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/init.xaga_product.rc \
-    $(LOCAL_PATH)/init/init.xaga.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.xaga.rc
+PRODUCT_PACKAGES += \
+    init.xaga_product.rc \
+    init.xaga.rc
 
 # Sensors
 PRODUCT_COPY_FILES += \

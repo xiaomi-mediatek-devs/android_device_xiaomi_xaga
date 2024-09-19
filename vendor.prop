@@ -31,3 +31,18 @@ vendor.mtk.camera.app.fd.video=1
 
 # FM Radio
 ro.vendor.fm.platform=connac2x
+ro.vendor.mediatek.fm.chip=0x6635
+ro.vendor.mediatek.fm.band=1
+ro.vendor.mediatek.fm.low_band=875
+ro.vendor.mediatek.fm.high_band=1080
+ro.vendor.mediatek.fm.seek_space=1
+ro.vendor.mediatek.fm.max_scan_num=40
+ro.vendor.mediatek.fm.seek_lev=4
+ro.vendor.mediatek.fm.scan_sort=0
+ro.vendor.mediatek.fm.short_ana_sup=1
+ro.vendor.mediatek.fm.rssi_th_l2=-102
+ro.vendor.mediatek.fm.fake_chans=4
+ro.vendor.mediatek.fm.fake_chan_0=9210 -205
+ro.vendor.mediatek.fm.fake_chan_1=9600 -152
+ro.vendor.mediatek.fm.fake_chan_2=10400 -152
+ro.vendor.mediatek.fm.fake_chan_3=10750 -205

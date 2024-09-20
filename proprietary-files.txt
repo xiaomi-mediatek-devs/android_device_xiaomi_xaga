@@ -59,6 +59,10 @@ vendor/lib64/libArcNetMtk.so
 vendor/lib64/libBasicModule.so
 vendor/lib64/libOpenCL.so
 vendor/lib64/libSQLiteModule_VER_ALL.so
+vendor/lib64/libSuperSensor.so
+vendor/lib64/libSuperSensorCPU.so
+vendor/lib64/libSuperSensorProcessor.so
+vendor/lib64/lib_sr_models.so
 vendor/lib64/libaaa_gma.so
 vendor/lib64/libai_pq.so
 vendor/lib64/libai_sdr2hdr.so
@@ -126,6 +130,10 @@ vendor/lib64/libmtkcam_3rdcalibration.so
 vendor/lib64/libmtkcam_thirdparty.customzone.so
 vendor/lib64/libmtkcam_thirdparty.customzone.so
 vendor/lib64/libmtkisp_metadata_v2.so
+vendor/lib64/libpixelflinger.so
+vendor/lib64/librelight_only.so
+vendor/lib64/libremosaic_wrapper.so
+vendor/lib64/libsdk_sr.so
 vendor/lib64/libvideofilter_only.so
 vendor/lib64/libvidhance.so
 vendor/lib64/libvidhance_active_ois.so
@@ -136,6 +144,7 @@ vendor/lib64/libvidhance_horizon_correction.so
 vendor/lib64/libvidhance_ldc.so
 vendor/lib64/libvidhance_stabilizer.so
 vendor/lib64/libvidhance_super_stabilization.so
+vendor/lib64/libvpu.so
 vendor/lib64/libwa_widelens_undistort.so
 vendor/lib64/mt6895/lib3a.ae.core.so;SYMLINK=vendor/lib64/lib3a.ae.core.so
 vendor/lib64/mt6895/lib3a.ae.so;SYMLINK=vendor/lib64/lib3a.ae.so

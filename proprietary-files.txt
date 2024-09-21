@@ -39,7 +39,6 @@ vendor/etc/smartpa_param/tfa98xx_voice.bin
 # Audio Hardware
 vendor/lib64/hw/audio.primary.mediatek.so;SYMLINK=vendor/lib64/hw/audio.primary.mt6895.so
 vendor/lib64/libaudio_param_parser-vnd.so
-vendor/lib64/libmiresample.so
 vendor/lib64/libmisound.so
 vendor/lib64/libmisoundcrossfade.so
 

@@ -57,7 +57,6 @@ vendor/lib64/lib3a.cculog.so
 vendor/lib64/libAITrackingAFMgr.so
 vendor/lib64/libArcNetMtk.so
 vendor/lib64/libBasicModule.so
-vendor/lib64/libJpgEncPipe.so
 vendor/lib64/libOpenCL.so
 vendor/lib64/libSQLiteModule_VER_ALL.so
 vendor/lib64/libaaa_gma.so
@@ -109,8 +108,6 @@ vendor/lib64/libfeaturepolicy.so
 vendor/lib64/libfeaturepolicy_dbhandler.so
 vendor/lib64/libheichal.so
 vendor/lib64/libimagebuffer_wrapper.so
-vendor/lib64/libjpeg-alpha-oal_vendor.so
-vendor/lib64/libjpeg-alpha_vendor.so
 vendor/lib64/libmiStereoFactoryRemapBasicLib.so
 vendor/lib64/libmiStereoFactoryRemapLib.so
 vendor/lib64/libmiai_deblur.so

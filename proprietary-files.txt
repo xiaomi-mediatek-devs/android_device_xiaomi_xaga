@@ -370,6 +370,7 @@ vendor/lib64/libcamalgo.warp.so
 vendor/lib64/libcamera_scene.so
 vendor/lib64/libcameraplatforminfoxiaomi.so
 vendor/lib64/libcamerasensorinfoxiaomi.so
+vendor/lib64/libcom.xiaomi.metadatautils.so
 vendor/lib64/libcom.xiaomi.pluginutils.so
 vendor/lib64/libfeature.hdr10.so
 vendor/lib64/libfeaturepolicy.so
@@ -397,6 +398,8 @@ vendor/lib64/libmtkisp_metadata_v2.so
 vendor/lib64/libpixelflinger.so
 vendor/lib64/librelight_only.so
 vendor/lib64/libremosaic_wrapper.so
+vendor/lib64/libremosaiclib.so
+vendor/lib64/librgbwlightsensor.so
 vendor/lib64/libsdk_sr.so
 vendor/lib64/libvideofilter_only.so
 vendor/lib64/libvidhance.so
@@ -409,6 +412,7 @@ vendor/lib64/libvidhance_ldc.so
 vendor/lib64/libvidhance_stabilizer.so
 vendor/lib64/libvidhance_super_stabilization.so
 vendor/lib64/libvpu.so
+vendor/lib64/libvpu5.so
 vendor/lib64/libwa_widelens_undistort.so
 vendor/lib64/vendor.mediatek.hardware.camera.atms@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.0.so
